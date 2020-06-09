@@ -19,6 +19,10 @@ class Game
         true
     end
 
+    def winner
+        return :x
+    end
+
     private
 
     def empty_board
