@@ -63,8 +63,8 @@ describe 'A game of tic tac toe' do
   end
 
   it 'is a tie if there is no winner and the board is full' do
-    #game = Game.new(full_board)
-    #expect(game).to be_tie
+    game = Game.new(full_board)
+    expect(game).to be_tie
   end
 
   describe 'winning' do

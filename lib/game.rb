@@ -15,6 +15,10 @@ class Game
         end
     end
 
+    def tie?
+        true
+    end
+
     private
 
     def empty_board
