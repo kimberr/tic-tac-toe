@@ -59,7 +59,7 @@ describe 'A game of tic tac toe' do
   end
 
   it 'is over when the board is full' do
-    #expect(Game.new(full_board)).to be_over
+    expect(Game.new(full_board)).to be_over
   end
 
   it 'is a tie if there is no winner and the board is full' do

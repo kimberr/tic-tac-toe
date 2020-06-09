@@ -8,7 +8,11 @@ class Game
     end
 
     def over?
-        false
+        if @board.full?
+            true
+        else 
+            false
+        end
     end
 
     private
