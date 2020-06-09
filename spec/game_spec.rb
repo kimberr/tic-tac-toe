@@ -75,8 +75,8 @@ describe 'A game of tic tac toe' do
     end
 
     it 'reports :o is the winner when a row is full of :o' do
-      #game = Game.new(o_wins_board)
-      #expect(game.winner).to eq(:o)
+      game = Game.new(o_wins_board)
+      expect(game.winner).to eq(:o)
     end
 
     it 'reports nil if there is no winner' do

@@ -20,7 +20,14 @@ class Game
     end
 
     def winner
+        # if rows are x's
         return :x
+
+        #if rows are o's
+        return :o
+
+        #else there is no winner
+        return nil
     end
 
     private
